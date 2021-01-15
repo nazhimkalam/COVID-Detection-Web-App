@@ -1,4 +1,7 @@
 import './Detection.css';
+import { Button } from '@material-ui/core';
+import PublishIcon from '@material-ui/icons/Publish';
+import SearchIcon from '@material-ui/icons/Search';
 
 function Detection() {
 	return (
@@ -22,6 +25,17 @@ function Detection() {
 						alt=""
 					/>
 				</div>
+			</div>
+
+			<div className="detection__uploadDetect">
+				<Button className="detection__uploadDetectUpload">
+					UPLOAD
+					<PublishIcon fontSize="small" className="detection__uploadDetectUploadIcon" />
+				</Button>
+				<Button className="detection__uploadDetectDetect">
+					DETECT
+					<SearchIcon fontSize="small" className="detection__uploadDetectUploadIcon" />
+				</Button>
 			</div>
 		</div>
 	);
