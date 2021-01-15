@@ -46,7 +46,7 @@
 .detection__uploadDetectUpload {
 	background-color: rgb(0, 155, 26) !important;
 	border: 2px rgb(6, 145, 25) solid !important;
-    color: white !important;
+	color: white !important;
 	font-weight: 600 !important;
 }
 .detection__uploadDetectDetect {
@@ -55,8 +55,25 @@
 	font-weight: 600 !important;
 	border: 2px rgb(211, 18, 18) solid !important;
 }
-.detection__uploadDetectUploadIcon{
-    position: relative;
-    left: 5px;
-    bottom: 1px;
+.detection__uploadDetectUploadIcon {
+	position: relative;
+	left: 5px;
+	bottom: 1px;
+}
+.detection__result {
+	margin-top: 50px;
+}
+.detection__resultPositive > p {
+	padding: 30px 120px;
+	background-color: rgb(255, 163, 163);
+    text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
+}
+.detection__resultNegative> p {
+	padding: 30px 120px;
+	background-color: rgb(146, 221, 152);
+    text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
 }

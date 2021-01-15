@@ -2,8 +2,11 @@ import './Detection.css';
 import { Button } from '@material-ui/core';
 import PublishIcon from '@material-ui/icons/Publish';
 import SearchIcon from '@material-ui/icons/Search';
+import { useState } from 'react';
 
 function Detection() {
+	const [result, setResult] = useState(null);
+
 	return (
 		<div className="detection">
 			<h2>COVID-19 DETECTOR</h2>
@@ -27,6 +30,11 @@ function Detection() {
 				</div>
 			</div>
 
+			{result && (
+				<div className={result === 'positive' ? 'detection__resultPositive' : 'detection__resultNegative'}>
+					<p> Result: Positive</p>
+				</div>
+			)}
 			<div className="detection__uploadDetect">
 				<Button className="detection__uploadDetectUpload">
 					UPLOAD
