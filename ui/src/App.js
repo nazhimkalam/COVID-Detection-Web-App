@@ -9,9 +9,9 @@ function App() {
 		<div className="app">
 			<Header />
 
-			<div>
+			<div className="app__about">
 				<About />
-				<img src="" alt="" />
+				<img src="https://nammco.no/wp-content/uploads/2020/04/597px-sars-cov-2_without_background.png" alt="" />
 			</div>
 
 			<Detection />
