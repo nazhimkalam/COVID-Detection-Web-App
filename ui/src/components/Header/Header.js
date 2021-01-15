@@ -1,11 +1,11 @@
-import "./Header.css";
+import './Header.css';
 
 function Header() {
-    return (
-        <div>
-            
-        </div>
-    )
+	return (
+		<div className="header">
+			<h1>COVID-19</h1>
+		</div>
+	);
 }
 
-export default Header
+export default Header;

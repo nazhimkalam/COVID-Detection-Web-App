@@ -1,0 +1,13 @@
+.header {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+	border-bottom: 1px lightgray solid;
+	border-top: 1px lightgray solid;
+}
+.header > h1 {
+    margin: 20px;
+    font-size: 35px;
+    color: rgb(32, 32, 32);
+}
