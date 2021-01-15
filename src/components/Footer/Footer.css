@@ -1,0 +1,14 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: whitesmoke;
+	border-top: 1px rgba(201, 201, 201, 0.815) solid;
+	border-bottom: 1px rgba(201, 201, 201, 0.815) solid;
+}
+.footer > p {
+	margin: 40px;
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(32, 32, 32);
+}

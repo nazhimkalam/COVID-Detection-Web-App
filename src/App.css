@@ -1,0 +1,13 @@
+.app__about {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 50px;
+}
+.app__about > img {
+	object-fit: contain;
+	height: 350px;
+}
+.app__body {
+	margin-top: 70px;
+}
