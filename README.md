@@ -1,1 +1,1 @@
-"# COVID-Detection-Web-App" 
+# COVID-Detection-Web-App
